@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alkalmazás</title>
+    <link rel="stylesheet" href="style/main.css">
+    <script src="app/app.js" defer></script>
+</head>
+<body>
+    <main>
+        <section id="first" class="first" data-page="first">
+            <h1>First</h1>
+            <a href="#second">Next</a>
+        </section>
+        <section id="second" class="second" data-page="second">
+            <h1>Second</h1>
+            <a href="#third">Next</a>
+        </section>
+        <section id="third" class="third" data-page="third">
+            <h1>Third</h1>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <h1>Hello</h1>
+            <ul>
+                <li data-page="first">First</li>
+                <li data-page="second">Second</li>
+                <li  data-page="third">Third</li>
+                <div class="bubble"></div>
+            </ul>
+            <ul>
+            <li><a href="">oda</a></li>
+            <li><a href="">vissza</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

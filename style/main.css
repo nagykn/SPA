@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+footer {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+nav {
+    min-height: 5vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1, nav ul {
+     font-size: 1.5em;
+    flex: 1;
+ }
+ nav ul {
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+ }
+ .bubble {
+     background-color: springgreen;
+     transition: all 0.5s ease;
+ }
+
+section {
+    min-height: 95vh;
+}
+.first {
+    
+}
+.second {
+    
+}
+.third {
+    
+}
